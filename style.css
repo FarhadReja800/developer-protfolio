@@ -71,7 +71,7 @@ nav a{
 
 .header{
     background-color:#FFF8F3 ;
-    background-image: url("../images/header_bg.png"), url("/images/developer.png");
+    background-image: url("/images/header_bg.png"), url("/images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right, top left;
     
@@ -136,5 +136,17 @@ main{
 .info-description{
     font-size: 18px;
     font-weight: bold;
-    color: #FD6E0A;
+    color: #747474;
+}
+#section-des{
+    padding: 30px 130px;
+    font-size:18px ;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.skills-title:hover{
+    color: #757575;
 }
